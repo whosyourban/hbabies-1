@@ -38,7 +38,7 @@
 - 新增 Round
 - 管理 Round 内商品
 
-<br /><br /><br /><br /><br /><br />
+<br /><br /><br />
 
 ## Milestone 2 (`3.28 ~ 6.28`)
 
@@ -84,7 +84,7 @@
 - 修改购买地信息
 - 删除购买地
 
-<br /><br /><br /><br /><br /><br />
+<br /><br /><br />
 
 ## Milestone 3 (`6.28 ~ 9.28`)
 
