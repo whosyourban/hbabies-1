@@ -1,4 +1,4 @@
-# hbabies Schedule
+# Hbabies Schedule
 
 根据开发者协商时间，圣诞后 `12 月 28 日` 项目启动。
 
