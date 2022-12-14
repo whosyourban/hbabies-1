@@ -24,7 +24,7 @@
 - _Hbabies iOS App_ 可以通过手机 App 进行更优秀的交互功能。
 - _底层 Support_ 例如服务器、数据库、域名、后台管理系统等。
 
-同时，有一个 access 做的建议系统用于借鉴：
+同时，有一个 access 做的简易系统用于借鉴：
 
 ![借鉴](reference.jpg)
 
