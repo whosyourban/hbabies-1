@@ -63,7 +63,6 @@
 - 商品唯一码索引（ID、链接、二维码）
 - 商品分享
 - 商品归类
-- 商品状态（付订金、在途、入库、出库）
 
 ### Round 功能
 
@@ -107,8 +106,10 @@
 
 ![hbabies business](hbabies.png)
 
+## 项目大致规划
+
+详见 [Schedule.md](Schedule.md)
+
 ## 数据库表结构文档
 
-DatabaseStruct.md
-
-[DatabaseStruct.md](DatabaseStruct.md)
+详见 [DatabaseStruct.md](DatabaseStruct.md)
