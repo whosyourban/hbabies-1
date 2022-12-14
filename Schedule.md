@@ -36,6 +36,8 @@
 - 新增 Round
 - 管理 Round 内商品
 
+<br /><br /><br /><br /><br /><br />
+
 ## Milestone 2
 
 ### 管理员特权
@@ -79,6 +81,8 @@
 - 新增购买地
 - 修改购买地信息
 - 删除购买地
+
+<br /><br /><br /><br /><br /><br />
 
 ## Milestone 3
 
