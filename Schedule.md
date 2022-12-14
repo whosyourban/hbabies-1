@@ -1,6 +1,8 @@
 # hbabies Schedule
 
-## Milestone 1
+根据开发者协商时间，圣诞后 __12 月 28 日__ 项目启动。
+
+## Milestone 1 (__12.28 ~ 3.28__)
 
 ### 系统初始配置
 
@@ -38,7 +40,7 @@
 
 <br /><br /><br /><br /><br /><br />
 
-## Milestone 2
+## Milestone 2 (__3.28 ~ 6.28__)
 
 ### 管理员特权
 
@@ -84,7 +86,7 @@
 
 <br /><br /><br /><br /><br /><br />
 
-## Milestone 3
+## Milestone 3 (__6.28 ~ 9.28__)
 
 ### App 开发
 
