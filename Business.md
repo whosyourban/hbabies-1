@@ -5,7 +5,7 @@
 ![腾讯文档截图](background.jpg)
 
 拆分复杂度现状：
-- 目前团队使用[腾讯文档](https://docs.qq.com)来管理订单。
+- 目前团队使用腾讯文档来管理订单。
 - **人员、账户管理难度。** 有接近 20 人左右的买手共同入单/出单，每个人也可能用不同的账户操作货品。
 - **Round 管理复杂度。** 会根据不同的 Target 形成每一个 Round，比如 Target 一个 Hermes Birkin 包，Round 内需要配 X 的各类商品，维护全靠人工编辑十分麻烦，也容易出错。
 - **状态复杂度。** 每一个商品入货，出货需要找到对应的账户、买手确认，同时还要手动标记，很容易出错，类同的商品（例如丝巾）更加是难以匹配账号。
@@ -20,7 +20,7 @@
 ## Production
 
 因此，我们决定做这个产品，该产品包括以下几个规划：
-- _Hbabies Website [https://hbabies.shop](https://hbabies.shop)_ 可以在网站上实现全部产品功能。
+- _Hbabies Website [hbabies.shop](https://hbabies.shop)_ 可以在网站上实现全部产品功能。
 - _Hbabies iOS App_ 可以通过手机 App 进行更优秀的交互功能。
 - _底层 Support_ 例如服务器、数据库、域名、后台管理系统等。
 
