@@ -112,7 +112,7 @@
 
 ## 开发任务规划（开发看）
 
-详见 [ActionsPlan.md](DatabaseStruct.md)
+详见 [ActionsPlan.md](ActionsPlan.md)
 
 ## 数据库表结构文档（开发看）
 
