@@ -110,10 +110,10 @@
 
 详见 [Schedule.md](Schedule.md)
 
-## 实现规划
+## 开发任务规划（开发看）
 
 详见 [ActionsPlan.md](DatabaseStruct.md)
 
-## 数据库表结构文档
+## 数据库表结构文档（开发看）
 
 详见 [DatabaseStruct.md](DatabaseStruct.md)
