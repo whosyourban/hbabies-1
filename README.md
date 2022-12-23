@@ -1,2 +1,1 @@
-# hbabies
-hbabies.shop
+Only document here, not code.
