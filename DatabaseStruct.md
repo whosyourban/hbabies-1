@@ -1,4 +1,4 @@
-# Hbabies 数据库表文档, 基于Mysql8.0
+# Hbabies 数据库表文档, 基于 Mysql8.0
 
 
 ```
@@ -8,7 +8,7 @@ create table user (
     `account` varchar(64) DEFAULT '' COMMENT '账号',
     `password` varchar(64) DEFAULT '' COMMENT '加盐md5密码',
     `phone` varchar(32) DEFAULT '' COMMENT '电话号码',
-    `email` varchar(64) DEFAULT '' COMMENT '电话号码',
+    `email` varchar(64) DEFAULT '' COMMENT '邮箱',
     `is_delete` TINYINT(1) DEFAULT '0' COMMENT '是否删除状态,0:否,1:是',
     `is_active` TINYINT(1) DEFAULT '1' COMMENT '能否登录,0:否,1是',
     `create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -41,6 +41,7 @@ create table bank_account (
     `name` varchar(255) DEFAULT '' COMMENT '用户名',
     `account` varchar(255) DEFAULT '' COMMENT '账号',
     `bank` varchar(511) DEFAULT '' COMMENT '银行名',
+    `note` varchar(511) DEFAULT '' COMMENT '备注',
     `balance` DECIMAL(10,2) DEFAULT 0 COMMENT '余额',
     `is_delete` TINYINT(1) DEFAULT '0' COMMENT '是否删除状态,0:否,1:是',
     `create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -53,7 +54,8 @@ create table item_round (
     `id` int(11) AUTO_INCREMENT PRIMARY KEY,
     `name` varchar(255) DEFAULT '' COMMENT '描述',
     `color` varchar(64) DEFAULT '' COMMENT '颜色',
-    `balance` DECIMAL(10,2) DEFAULT 0 COMMENT '余额',
+    `target` varchar(255) DEFAULT '' COMMENT '目标名',
+    `targetPrice` DECIMAL(10,2) DEFAULT 0 COMMENT '目标价',
     `status` TINYINT(2) DEFAULT '1' COMMENT '状态:1开放，0:结束',
     `create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
     `update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间'
