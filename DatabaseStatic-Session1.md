@@ -13,9 +13,9 @@ name:Vien渣打 account:622202360205446445 bank:渣打银行 balance:14000 note:
 ### /staff/list
 
 ```
-name:TQ account:622202360205446442 password:tq123 phone:13580493109 email:tqtan@qq.com
-name:Vien account:622202360205446444 password:vien123 phone:18814864859 email:vienluk@qq.com
-name:宅杰 account:622202360205446443 password:zhai123 phone:18028615055 email:zhaijie@qq.com
+name:TQ account:hbabies_tq password:tq123 phone:13580493109 email:tqtan@qq.com
+name:Vien account:hbabies_vien password:vien123 phone:18814864859 email:vienluk@qq.com
+name:宅杰 account:hbabies_zhai password:zhai123 phone:18028615055 email:zhaijie@qq.com
 ```
 
 ### /tag/list
@@ -55,3 +55,8 @@ data: {
 	type: []
 }
 ```
+
+### /commodity/update
+
+// 出库特殊逻辑：
+// 做个逻辑，如果我 update 的这次，diff 变更了 status 成 4（出库），就自动 mark 一个 sell_time。
