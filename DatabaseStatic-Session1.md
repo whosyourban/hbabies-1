@@ -13,9 +13,9 @@ name:Vien渣打 account:622202360205446445 bank:渣打银行 balance:14000 note:
 ### /staff/list
 
 ```
-name:TQ account:622202360205446442 password:tq123 phone:13580493109 email:tqtan@qq.com
-name:Vien account:622202360205446444 password:vien123 phone:18814864859 email:vienluk@qq.com
-name:宅杰 account:622202360205446443 password:zhai123 phone:18028615055 email:zhaijie@qq.com
+name:TQ account:tq password:tq123 phone:13580493109 email:tqtan@qq.com
+name:Vien account:vien password:vien123 phone:18814864859 email:vienluk@qq.com
+name:宅杰 account:zhaijie password:zhai123 phone:18028615055 email:zhaijie@qq.com
 ```
 
 ### /tag/list
