@@ -43,16 +43,25 @@ name:手表
 name:香水
 ```
 
-### /form/prefillInfo
+### /form/prefillCommodity
 
-// 录入商品预拉上面员工、tag、type、account 的所有字段，相当于一个合并请求
+// 录入商品预拉上面员工、type、account 的所有字段，相当于一个合并请求
 
 ```
 data: {
 	accounts: [],
 	staff: [],
-	tag: [],
 	type: []
+}
+```
+
+### /form/prefillRound
+
+// 录入商品预拉上面员工、tag、type、account 的所有字段，相当于一个合并请求
+
+```
+data: {
+	tag: [],
 }
 ```
 
@@ -60,3 +69,4 @@ data: {
 
 // 出库特殊逻辑：
 // 做个逻辑，如果我 update 的这次，diff 变更了 status 成 4（出库），就自动 mark 一个 sell_time。
+
