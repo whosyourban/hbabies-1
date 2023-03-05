@@ -55,7 +55,8 @@ create table item_round (
     `name` varchar(255) DEFAULT '' COMMENT '描述',
     `color` varchar(64) DEFAULT '' COMMENT '颜色',
     `target` varchar(255) DEFAULT '' COMMENT '目标名',
-    `targetPrice` DECIMAL(10,2) DEFAULT 0 COMMENT '目标价',
+    `target_price` DECIMAL(10,2) DEFAULT 0 COMMENT '目标价',
+    `final_price` DECIMAL(10,2) DEFAULT 0 COMMENT '最终成交价',
     `status` TINYINT(2) DEFAULT '1' COMMENT '状态:1开放，0:结束',
     `create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
     `update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间'
@@ -114,5 +115,14 @@ create table commodity_op_account (
     `update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间'
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='商品操作账户, 这里需要确认下';
 
+
+
+create table tag (
+    `id` int(11) AUTO_INCREMENT PRIMARY KEY,
+    `name` varchar(64) DEFAULT '' COMMENT '名称',
+    `create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+    `update_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+    UNIQUE KEY `uniq_name` (`name`) 
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COMMENT='标签';
 
 ```
